@@ -7,7 +7,11 @@
 	<version>8.6.9</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
-	
+	<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.2</version>
+        </plugin>
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
